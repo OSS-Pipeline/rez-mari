@@ -35,8 +35,8 @@ echo -e "\n"
 
 # We extract the content of the .run file in a manner that it does not ask for explicit user input.
 ${MARI_URL} \
-    --accept-eula \
-    --prefix=${INSTALL_PATH}
+    --prefix=${INSTALL_PATH} \
+    --accept-eula
 
 echo -e "\n"
 echo -e "[INSTALL] Finished installing Mari-${MARI_VERSION}!"
